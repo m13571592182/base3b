@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.threeb.base.dao.SeUserRepository">
+    <!-- 根据币名称查询所有场内该币种的交易行情 -->
+    <select id="findAll" parameterType="java.lang.String" resultType="com.threeb.base.entity.SeUser">
+        select * from se_user
+    </select>
+
+</mapper>

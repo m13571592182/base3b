@@ -1,0 +1,72 @@
+#sidebar > ul > li > a {
+    background: white;
+    color: black;
+}
+
+#sidebar > ul > li a span {
+    color: black;
+}
+
+#sidebar > ul > li.active a {
+    color: #333333;
+}
+
+#sidebar > ul > li > a:hover {
+    background-color: #333333;
+}
+
+#sidebar > ul > li > a:hover span {
+    color: white;
+}
+
+#sidebar > ul > li > a > .label {
+    background-color: black;
+    color: white;
+}
+
+#sidebar > ul > li {
+    border-bottom: 0px solid #333333;
+}
+
+#sidebar > ul > li:nth-of-type(1),#sidebar > ul > li.active:nth-of-type(1) {
+    border-top: 0px solid #333333;
+}
+
+#sidebar > ul > li.active {
+    background-color: #333333;
+    border-bottom: 0px solid #333333;
+    border-top: 1px solid #333333;
+}
+
+#sidebar > ul li ul li a:hover, #sidebar > ul li ul li.active a {
+    background-color: #333333;
+}
+
+#sidebar > ul li ul li.active {
+    background-color: #333333;
+}
+
+#sidebar > ul li ul li a {
+    color: #333333;
+}
+
+#sidebar > ul li ul {
+    background-color: white;
+}
+
+#header {
+    background-color: #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+    text-shadow: none;
+}
+
+#header h1 a {
+    color: white;
+}
+
+#user-nav > ul > li > a:hover, #user-nav > ul > li.open > a {
+    background-color: inherit;
+}
